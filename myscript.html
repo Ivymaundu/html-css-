@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .el-one{
+            font-size: 30px;
+            margin-bottom: 200px;
+        }
+        .el-two{
+            font-size: 30px;
+            margin-bottom: 200px;
+        }
+        .el-three{
+            font-size: 30px;
+            margin-bottom: 200px;
+        }
+    </style>
+</head>
+<body>
+<div id="el-one" class="el-one">30</div>
+<div id="el-two" class="el-two">50</div>
+<div id="el-three" class="el-three"></div>
+<script>
+    let x = document.getElementById("el-one").innerText;
+    let y = document.getElementById("el-two").innerText;
+    let z = number(x) + number(y);
+    document.getElementById("el-three").innerText=z;
+    console.log(z);
+</script>
+
+
+</body>
+</html>
