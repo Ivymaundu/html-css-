@@ -15,8 +15,10 @@
     
         //return true if email is valid
         let email = "mail@mail.com"
-         console.log(email.indexOf("@")>0)
+
+         console.log((email.indexOf('.') - email.indexOf('@')>1) && (email.indexOf('@')>0) && (email.indexOf('.')+1 != email.length))
          
+        //checking if phone number is kenyan
 
     
 
