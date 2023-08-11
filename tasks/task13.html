@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let password = "admin@123";
+        let email = "admin@mail.com"
+        
+        for(i = 0; i<3; i++){
+            let user_email=prompt("Enter email"+ i.tostring()+"of 3")
+            let user_password=prompt("Enter password"+ i.tostring()+"of 3")
+
+        if(email == user_email && user_password){
+            console.log("Access granted")
+            break;
+        }
+        }
+
+
+    </script>
+</body>
+</html>
