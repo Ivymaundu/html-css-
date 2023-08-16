@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            position: relative;
+            width: 70%;
+            text-align: center;
+            /* background-color: blue; */
+            height: 700px;
+        }
+        input[type=text]{
+            width: 40%;
+            padding-left: 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            font-size: large;
+           align-items: end;
+        }
+        table{
+            position: absolute;
+            left: 30%;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <form id="myform">
+            <label>First Name: </label>
+            <input type="text" name="Firstname" id="Firstname">
+            <br>
+            <label>Last Name: </label>
+            <input type="text" name="Lastname" id="Lastname">
+            <br>
+            <label>Email: </label>
+            <input type="text" name="email" id="email">
+            <br>
+            <button type="submit">Submit</button>
+
+        </form>
+        <table id="mytable" width=30%>
+            <tr>
+                <td>First name</td>
+                <td>Last Name</td>
+                <td>Email</td>
+            </tr>
+            <tr>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
